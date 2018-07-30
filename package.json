@@ -1,0 +1,33 @@
+{
+  "name": "blastinutils",
+  "version": "0.1.0",
+  "description": "Super simple helper library to BLAST software from NCBI",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_PATH=node_modules node_modules/.bin/mocha $(find src -name '*tests.js')",
+    "nyc": "NODE_PATH=node_modules node_modules/.bin/nyc node_modules/.bin/mocha $(find src -name '*tests.js')",
+    "coverage": "NODE_PATH=node_modules node_modules/.bin/nyc report --reporter=text-lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daviortega/blastinutils.git"
+  },
+  "keywords": [
+    "blast",
+    "bioinformatics"
+  ],
+  "author": "Davi Ortega",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daviortega/blastinutils/issues"
+  },
+  "homepage": "https://github.com/daviortega/blastinutils#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.2",
+    "eslinter": "^3.2.1",
+    "mocha": "^5.2.0",
+    "nyc": "^12.0.2"
+  }
+}
