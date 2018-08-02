@@ -1,3 +1,3 @@
 'use strict'
 
-exports = require('./src/Blastinutils')
+module.exports = require('./src/Blastinutils')
