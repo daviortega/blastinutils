@@ -2,7 +2,7 @@
   "name": "blastinutils",
   "version": "0.1.0",
   "description": "Super simple helper library to BLAST software from NCBI",
-  "main": "src/Blastinutils.js",
+  "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/nyc node_modules/.bin/mocha $(find src -name '*tests.js')",
     "mocha": "NODE_PATH=node_modules node_modules/.bin/mocha $(find src -name '*tests.js')",

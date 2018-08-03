@@ -1,3 +1,4 @@
 'use strict'
 
-module.exports = require('./src/Blastinutils')
+const Blastinutils = require('./src/Blastinutils')
+module.exports = Blastinutils
