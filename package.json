@@ -1,6 +1,6 @@
 {
   "name": "blastinutils",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Super simple helper library to BLAST software from NCBI",
   "main": "index.js",
   "scripts": {
